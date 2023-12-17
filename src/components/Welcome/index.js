@@ -3,7 +3,7 @@ import {Component} from 'react'
 import './index.css'
 
 class MyComponent extends Component {
-  state = {isSubscribed: true}
+  state = {isSubscribed: false}
 
   onSubscribe = () => {
     this.setState(prevState => ({isSubscribed: !prevState.isSubscribed}))
